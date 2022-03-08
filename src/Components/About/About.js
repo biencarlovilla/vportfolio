@@ -1,6 +1,6 @@
 import React from "react";
 import portrait from "../../Assets/portrait.png";
-import Pdf from "../../Assets/villa-resume-draper.pdf";
+import Pdf from "../../Assets/resume-villa-draper.pdf";
 // import Fade from 'react-reveal/Fade';
 import "./style.css";
 

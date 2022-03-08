@@ -1,7 +1,7 @@
 import React from "react";
 // import portfolio from "../../utils/portfolio.png";
 // import { Typography } from "@material-ui/core";
-import googlebook from "../../Assets/googlebook.png";
+import bcwebs from "../../Assets/bcwebs.png";
 import wheretogo from "../../Assets/wheretogo.png";
 import futureendeavors from "../../Assets/futureendeavors.png";
 import emp_dir from "../../Assets/emp_dir.png";
@@ -28,13 +28,13 @@ const Projects = () => {
                     {/* <Fade delay={200}> */}
                         <div>
                             <div class="card">
-                                <img src={googlebook} alt="googlebook_img" height="250" width="300"/>
+                                <img src={bcwebs} alt="googlebook_img" height="250" width="300"/>
                                 <div class="card-body">
-                                <h5 class="card-title">Google Book Search</h5>
-                                <p class="card-text">For this project, I used react and generated an API key from google</p>
+                                <h5 class="card-title">BCWebStudios</h5>
+                                <p class="card-text">I created a web design service offering full stack development</p>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="https://team8googlesearch.herokuapp.com/" class="card-link">Demo</a></li>
+                                <li class="list-group-item"><a href="https://bcwebstudios.netlify.app/" class="card-link">Visit</a></li>
                                 <li class="list-group-item"><a href="https://github.com/biencarlovilla/google-book-search" class="card-link">Source Code</a></li>
                                 </ul>
                             </div>
