@@ -35,7 +35,7 @@ const Projects = () => {
                                 </div>
                                 <ul class="list-group list-group-flush">
                                 <li class="list-group-item"><a href="https://bcwebstudios.netlify.app/" class="card-link">Visit</a></li>
-                                <li class="list-group-item"><a href="https://github.com/biencarlovilla/google-book-search" class="card-link">Source Code</a></li>
+                                
                                 </ul>
                             </div>
                         </div>

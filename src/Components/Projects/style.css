@@ -57,3 +57,21 @@
 		margin-left: 10px;
 	}
 	}
+
+@media only screen and (max-height: 736px) {
+	#projects {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100% ;
+		height: 365vh;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+}
