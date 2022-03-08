@@ -1,6 +1,5 @@
-
 @media only screen and (max-width: 390px) {
-	#about {
+	#skills {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
@@ -10,12 +9,9 @@
 		-ms-flex-pack: center;
 		justify-content: center;
 		width: 85% ;
-		height: 120vh;
-        padding-left: 15px;
-		padding-right: 25px;
-		margin-bottom: 100px;
-		margin-top: -50px;
+		height: 50vh;
+		padding-left: 15px;
+		padding-right: 15px;
+      
 	}
 	}
-
- 

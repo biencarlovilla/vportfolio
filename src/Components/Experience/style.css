@@ -1,6 +1,5 @@
-
 @media only screen and (max-width: 390px) {
-	#about {
+	#experience {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
@@ -10,12 +9,22 @@
 		-ms-flex-pack: center;
 		justify-content: center;
 		width: 85% ;
-		height: 120vh;
-        padding-left: 15px;
-		padding-right: 25px;
-		margin-bottom: 100px;
+		height: 100vh;
+		padding-left: 15px;
+		padding-right: 15px;
+       
+	}
+	#bcws{
+		height: 200px;
+		width: 265px;
 		margin-top: -50px;
 	}
+	#rh{
+		height: 200px;
+		width: 265px;
 	}
-
- 
+	#pp{
+		height: 200px;
+		width: 265px;
+	}
+	}

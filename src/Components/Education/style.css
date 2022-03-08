@@ -1,6 +1,5 @@
-
 @media only screen and (max-width: 390px) {
-	#about {
+	#education {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
@@ -11,11 +10,23 @@
 		justify-content: center;
 		width: 85% ;
 		height: 120vh;
-        padding-left: 15px;
-		padding-right: 25px;
-		margin-bottom: 100px;
-		margin-top: -50px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+    #skylines{
+        padding-top: 40px;
+    }
+	#ucb{
+		height: 200px;
+		width: 265px;
+	}
+	#yearup{
+		height: 150px;
+		width: 265px;
+		padding-top: 10px;
+	}
+	#skyline{
+		height: 150px;
+		width: 265px;
 	}
 	}
-
- 

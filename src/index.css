@@ -220,7 +220,7 @@ a:hover {
 	color: black;
 }
 .block {
-	width: 250px;
+	width: 150px;
 	height: 2px;
 	background: black; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, black 0%, #5fc3e4 100%);

@@ -36,3 +36,27 @@ input[type="submit"]:hover {
 	background: black;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 390px) {
+	#contact {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 85% ;
+		height: 80vh;
+		padding-left: 10px;
+		padding-right: 15px;
+		
+	}
+	.align {
+		position: relative;
+		padding-left: 1px;
+		padding-top: 1px;
+		
+	}
+	}

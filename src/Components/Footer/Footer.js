@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <div class="container">
                 <div class="row">
-                    <p>© 2021 - Biencarlo Villa's Portfolio</p>
+                    <p>© 2022 - Biencarlo Villa's Portfolio</p>
                 </div>
                 <div class="row"> 
                     <div class="logo">

@@ -16,3 +16,23 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+@media only screen and (max-width: 390px) {
+	#projects {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100% ;
+		height: 340vh;
+		padding-left: 10px;
+		padding-right: 15px;
+	}
+	.card{
+		width: 302px;
+	}
+	}

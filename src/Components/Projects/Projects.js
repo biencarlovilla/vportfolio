@@ -11,19 +11,19 @@ import notetaker from "../../Assets/notetaker.png";
 import "./style.css";
 
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <React.Fragment>
-      <section id="portfolio">
+      <section id="projects" style={{paddingTop:"100px"}}>
         <div class="container">
             {/* <Fade> */}
             <div>
-            <h1><i class="chess knight icon"></i>Portfolio</h1>
+            <h3><i class="chess knight icon"></i>Projects</h3>
             <div class="block"></div>
             </div>
             {/* </Fade> */}
 
-            <div class="row">
+            <div class="row" style={{textAlign:"center"}}>
                 <div class="four columns">
                     {/* <Fade delay={200}> */}
                         <div>
@@ -81,7 +81,7 @@ const Portfolio = () => {
 
             <br />
 
-            <div class="row">
+            <div class="row" style={{textAlign:"center"}}>
                 <div class="four columns"> 
                     {/* <Fade delay={200}> */}
                         <div>
@@ -142,4 +142,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

@@ -7,11 +7,11 @@ import "./style.css";
 const Contact = () => {
   return (
     <React.Fragment>
-     <section id="contact">
+     <section id="contact" style={{marginTop:"100px"}}>
         <div class="container"> 
           {/* <Fade> */}
             <div>
-            <h1><i class="chess icon"></i>Contact</h1>
+            <h3><i class="chess icon"></i>Contact</h3>
             <div class="block"></div>
             </div>
           {/* </Fade> */}

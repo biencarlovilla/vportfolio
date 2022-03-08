@@ -12,20 +12,24 @@ const Main = () => {
           <ul>
             <li><a class="smoothscroll" href="#header">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <li><a class="smoothscroll" href="#education">Education</a></li>
+            <li><a class="smoothscroll" href="#experience">Experience</a></li>
+            <li><a class="smoothscroll" href="#skills">Skills</a></li>
+            <li><a class="smoothscroll" href="#projects">Projects</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
+            <li><a href="https://bcwebstudios.netlify.app/">BCWebStudios</a></li>
           </ul>
         </nav>
       </div>
     </div>
     <div class="title">
-      <h1 class="animate__animated animate__fadeIn">Biencarlo Villa</h1>
+      <h1 class="animate__animated animate__fadeIn"> Biencarlo Villa</h1>
 
       <h2 class="animate__animated animate__fadeIn animate__delay-1s"> Full Stack Flex Web Developer</h2>
 
       <div class="smallsep heading animate__animated animate__fadeIn animate__delay-1s"></div>
       
-      
+   
       <i class="chess knight icon animate__animated animate__fadeIn animate__delay-4s"></i>
 
       <i class="chess pawn icon animate__animated animate__fadeIn animate__delay-3s"></i>
@@ -37,7 +41,7 @@ const Main = () => {
       <i class="chess bishop icon animate__animated animate__fadeIn animate__delay-4s"></i>
 
       <i class="chess rook icon animate__animated animate__fadeIn animate__delay-3s"></i>
-  
+      
 
       <a class="smoothscroll" href="#about">
       <div class="mouse">
@@ -48,7 +52,9 @@ const Main = () => {
 
     <a class="smoothscroll" href="#about">
     <div class="scroll-down"></div>
-    </a> </header>
+    </a> 
+    
+      </header>
     </React.Fragment>
   );
 };
