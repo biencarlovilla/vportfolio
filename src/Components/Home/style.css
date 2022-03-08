@@ -179,6 +179,87 @@ header {
 	}
 	}
 
+@media only screen and (max-width: 428px) {
+	header {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100% ;
+		height: 85vh;
+		background: black;
+		background: -moz-linear-gradient(-45deg, black 0%, #5fc3e4 100%);
+		background: -webkit-linear-gradient(-45deg, black 0%, #5fc3e4 100%);
+		background: linear-gradient(135deg, black 0%, #5fc3e4 100%);
+	 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='black', endColorstr='#5fc3e4', GradientType=1 );
+	}
+	.title h1 {
+		font-size: 35px;
+		font-weight: 300;
+		text-transform: uppercase;
+		line-height: 0.85;
+		margin-bottom: 28px;
+		margin: 0;
+		padding: 0;
+		color: #FFFFFF;
+	}
+	.title h2 {
+		color: #FFFFFF;
+		font-size: 10px;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		margin-top: 50px;
+	}
+	.title .icon {
+		color: #FFFFFF;
+		font-size: 35px;
+		padding-left: 10px;
+	}
+	.main_nav {
+		position: fixed;
+		top: 0px;
+		max-height: 70px;
+		z-index: 999;
+		width: 85%;
+		padding-top: 10px;
+		background: none;
+		overflow: hidden;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+		opacity: 0;
+		top: -100px;
+		padding-bottom: 20px;
+	}
+	.scroll-down {
+		position: absolute;
+		left: 50%;
+		bottom: 5vh;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+		z-index: 100;
+		text-decoration: none;
+		text-shadow: 0;
+		width: 13px;
+		height: 13px;
+		border-bottom: 2px solid #fff;
+		border-right: 2px solid #fff;
+		z-index: 9;
+		-webkit-transform: translate(-50%, 0%) rotate(45deg);
+		-moz-transform: translate(-50%, 0%) rotate(45deg);
+		transform: translate(-50%, 0%) rotate(45deg);
+		-webkit-animation: fade_move_down 2s ease-in-out infinite;
+		-moz-animation: fade_move_down 2s ease-in-out infinite;
+		animation: fade_move_down 2s ease-in-out infinite;
+		margin-bottom: 150px;
+	}
+	}
+
 
 
 /* ///////////////////////////// */

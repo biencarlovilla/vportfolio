@@ -28,3 +28,34 @@
 		width: 265px;
 	}
 	}
+
+@media only screen and (max-width: 428px) {
+	#experience {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100% ;
+		height: 120vh;
+		padding-left: 30px;
+		padding-right: 30px;
+       
+	}
+	#bcws{
+		height: 200px;
+		width: 265px;
+		margin-top: -50px;
+	}
+	#rh{
+		height: 200px;
+		width: 265px;
+	}
+	#pp{
+		height: 200px;
+		width: 265px;
+	}
+	}

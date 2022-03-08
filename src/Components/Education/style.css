@@ -30,3 +30,36 @@
 		width: 265px;
 	}
 	}
+
+@media only screen and (max-width: 428px) {
+	#education {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		width: 100% ;
+		height: 140vh;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+    #skylines{
+        padding-top: 40px;
+    }
+	#ucb{
+		height: 200px;
+		width: 265px;
+	}
+	#yearup{
+		height: 150px;
+		width: 265px;
+		padding-top: 10px;
+	}
+	#skyline{
+		height: 150px;
+		width: 265px;
+	}
+	}
